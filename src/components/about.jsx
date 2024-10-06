@@ -1,4 +1,4 @@
-import backgroundImage from "../assets/back-image.png"; // Adjust the path as needed
+import backgroundImage from "../assets/back-image.png";
 import travelImage from "../assets/travel-image3.png";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";

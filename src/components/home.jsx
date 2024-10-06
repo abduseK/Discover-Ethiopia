@@ -1,4 +1,4 @@
-import backgroundImage from "../assets/back-image.png"; // Adjust the path as needed
+import backgroundImage from "../assets/back-image.png";
 import Header from "./header";
 import SearchBox from "./searchbox";
 import travelImage from "../assets/travel-image2.png";
