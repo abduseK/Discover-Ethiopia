@@ -1,8 +1,5 @@
-# React + Vite
+# Discover Ethiopia
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Simple two page landing and about page of a tourism company
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Figma Design: https://www.figma.com/proto/zyMWg3siq5E4LoGbqFzzqs/Task?node-id=0-1&t=1f1Iy1dZ53vw4qGI-1
