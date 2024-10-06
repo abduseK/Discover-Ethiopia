@@ -42,9 +42,12 @@ const Home = () => {
           </div>
         </div>
 
-        <img
+        <motion.img
           src={travelImage}
-          className="hidden md:block w-full xl:w-1/3 xl:absolute bottom-0 right-32 h-25"
+          className="py-10 hidden md:block w-full xl:w-1/3 xl:absolute bottom-0 right-40 h-full"
+          initial={{ x: "100vw" }}
+          animate={{ x: 0 }}
+          transition={{ type: "tween", duration: 1 }}
         />
       </div>
     </motion.div>

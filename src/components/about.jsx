@@ -10,12 +10,11 @@ const About = () => {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
       transition={{ duration: 0.5 }}
+      className="h-screen bg-cover bg-center"
+      style={{ backgroundImage: `url(${backgroundImage})` }}
     >
-      <div
-        className="h-screen bg-cover bg-center"
-        style={{ backgroundImage: `url(${backgroundImage})` }}
-      >
-        <div className="flex flex-col ml-10 relative h-ful">
+      <div className="p-6 md:ml-20">
+        <div className="flex flex-col relative h-ful">
           <h1 className=" font-poppins font-bold text-5xl mt-40 py-3">
             About Us
           </h1>
@@ -42,9 +41,12 @@ const About = () => {
           </div>
         </div>
 
-        <img
+        <motion.img
           src={travelImage}
-          className="hidden md:block rotate-35 w-full xl:w-1/2 xl:absolute bottom-0 right-20 top-2"
+          className=" py-20 hidden md:block rotate-35 w-full xl:w-1/3 xl:absolute bottom-0 right-40 top-2"
+          initial={{ x: "100vw" }}
+          animate={{ x: 0 }}
+          transition={{ type: "tween", duration: 1 }}
         />
       </div>
     </motion.div>
