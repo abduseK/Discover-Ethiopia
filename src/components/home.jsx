@@ -19,7 +19,7 @@ const Home = () => {
       >
         <Header title="Explore Ethiopia" />
         <div className="flex flex-col mt-20 ml-10 relative h-ful">
-          <p className="text-teal-500 font-poppins">
+          <p className="mb-2 text-teal-500 font-poppins">
             Discover Your Next Adventure
           </p>
           <h1 className="text-black text-3xl mb-2 font-poppins font-medium md:text-6xl">
