@@ -15,7 +15,6 @@ const About = () => {
         className="h-screen bg-cover bg-center"
         style={{ backgroundImage: `url(${backgroundImage})` }}
       >
-        {/* <Header title="About Us" /> */}
         <div className="flex flex-col ml-10 relative h-ful">
           <h1 className=" font-poppins font-bold text-5xl mt-40 py-3">
             About Us

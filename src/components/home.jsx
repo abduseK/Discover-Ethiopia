@@ -12,14 +12,13 @@ const Home = () => {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
       transition={{ duration: 0.5 }}
+      className="h-screen bg-cover bg-center"
+      style={{ backgroundImage: `url(${backgroundImage})` }}
     >
-      <div
-        className="h-screen bg-cover bg-center"
-        style={{ backgroundImage: `url(${backgroundImage})` }}
-      >
+      <div className="p-6 md:ml-20">
         <Header title="Explore Ethiopia" />
-        <div className="flex flex-col mt-20 ml-10 relative h-ful">
-          <p className="mb-2 text-teal-500 font-poppins">
+        <div className="flex flex-col mt-20 relative h-ful">
+          <p className="mb-2 ml-1 text-teal-500 font-poppins">
             Discover Your Next Adventure
           </p>
           <h1 className="text-black text-3xl mb-2 font-poppins font-medium md:text-6xl">
