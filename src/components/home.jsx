@@ -17,7 +17,7 @@ const Home = () => {
         className="h-screen bg-cover bg-center"
         style={{ backgroundImage: `url(${backgroundImage})` }}
       >
-        <Header />
+        <Header title="Explore Ethiopia" />
         <div className="flex flex-col mt-20 ml-10 relative h-ful">
           <p className="text-teal-500 font-poppins">
             Discover Your Next Adventure
@@ -45,7 +45,7 @@ const Home = () => {
 
         <img
           src={travelImage}
-          className="w-full xl:w-1/3 xl:absolute bottom-0 right-32 h-25"
+          className="hidden md:block w-full xl:w-1/3 xl:absolute bottom-0 right-32 h-25"
         />
       </div>
     </motion.div>

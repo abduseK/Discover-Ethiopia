@@ -16,8 +16,11 @@ const About = () => {
         className="h-screen bg-cover bg-center"
         style={{ backgroundImage: `url(${backgroundImage})` }}
       >
-        <Header />
-        <div className="flex flex-col mt-40 ml-10 relative h-ful">
+        {/* <Header title="About Us" /> */}
+        <div className="flex flex-col ml-10 relative h-ful">
+          <h1 className=" font-poppins font-bold text-5xl mt-40 py-3">
+            About Us
+          </h1>
           <h1 className="text-teal-500 text-1xl mb-2 font-poppins font-medium md:text-1xl">
             We specialize in providing unforgettable experiences in Ethiopia,{" "}
             <br />
@@ -43,7 +46,7 @@ const About = () => {
 
         <img
           src={travelImage}
-          className=" rotate-35 w-full xl:w-1/2 xl:absolute bottom-0 right-20 top-2"
+          className="hidden md:block rotate-35 w-full xl:w-1/2 xl:absolute bottom-0 right-20 top-2"
         />
       </div>
     </motion.div>
